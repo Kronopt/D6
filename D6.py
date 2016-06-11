@@ -63,4 +63,5 @@ def d6():
             print '| %s | %s | %s |' %(S7, S8, S9)
             print '-------------'
 
-d6()
+if __name__ == "__main__":
+    d6()
