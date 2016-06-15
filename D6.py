@@ -5,7 +5,7 @@
 D6
 Randomly shows a different six sided die face each time enter is pressed
 
-HOW TO RUN
+HOW TO RUN:
     Double click script
 '''
 
@@ -14,7 +14,7 @@ import random
 __author__ = 'Pedro HC David, https://github.com/Kronopt'
 __credits__ = ['Pedro HC David']
 __version__ = '0.1'
-__date__ = '01:44h, 09/06/2016'
+__date__ = '14:27h, 15/06/2016'
 __status__ = 'Finished'
 
 def d6():
