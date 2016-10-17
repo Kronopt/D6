@@ -14,7 +14,7 @@ import random
 __author__ = 'Pedro HC David, https://github.com/Kronopt'
 __credits__ = ['Pedro HC David']
 __version__ = '0.1'
-__date__ = '14:27h, 15/06/2016'
+__date__ = '16:50h, 17/10/2016'
 __status__ = 'Finished'
 
 
