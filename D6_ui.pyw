@@ -10,11 +10,10 @@ HOW TO RUN:
 """
 
 from kivy.config import Config
-Config.set("graphics", "resizable", 0)
 Config.set("graphics", "height", 200)
 Config.set("graphics", "width", 200)
-Config.set("graphics", "minimum_width", 0)
-Config.set("graphics", "minimum_height", 0)
+Config.set("graphics", "minimum_width", 200)
+Config.set("graphics", "minimum_height", 200)
 
 import random
 import kivy
