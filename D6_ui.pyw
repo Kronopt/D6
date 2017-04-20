@@ -9,16 +9,22 @@ HOW TO RUN:
     Double click script
 """
 
+from kivy.config import Config
+Config.set("graphics", "resizable", 0)
+Config.set("graphics", "height", 200)
+Config.set("graphics", "width", 200)
+Config.set("graphics", "minimum_width", 0)
+Config.set("graphics", "minimum_height", 0)
+
 import random
 import kivy
 from kivy.app import App
-from kivy.core.window import Window
 from kivy.lang import Builder
 
 __author__ = 'Pedro HC David, https://github.com/Kronopt'
 __credits__ = ['Pedro HC David']
-__version__ = '0.1'
-__date__ = '14:56h, 19/04/2017'
+__version__ = '0.1.1'
+__date__ = '12:25h, 20/04/2017'
 __status__ = 'Finished'
 
 
@@ -125,7 +131,4 @@ BoxLayout:
         return layout
 
 if __name__ == "__main__":
-    Window.size = 200, 200
-    Window.minimum_width, Window.minimum_height = Window.size
-
     D6App().run()
